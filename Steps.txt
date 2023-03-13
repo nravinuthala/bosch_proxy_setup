@@ -1,0 +1,14 @@
+
+•  Install Px (save this in C drive) (Run px.exe install command on cmd in inside this location)  + check status (px status) that it is working fine + check port number on px.ini file
+•  Add the same on Environment variables
+	
+	System Variable
+	var name: HTTP_PROXY       http://localhost:3128
+	var name: HTTPS_PROXY      http://localhost:3128
+
+•  Restart the machine
+•  check & update settings.xml (update the port number in settings.xml file) and keep 	it in .m2 folder with same port on Px (.m2 folder available inside users folder -> 	username) Make sure px is running in the background(check in task manager)
+•  restart sts, clean + build the project on IDE
+
+
+cmd to Run px - px status or px start
